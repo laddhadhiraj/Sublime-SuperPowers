@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@include linear-gradient(color-stops(${1:#fff}, ${2:#eee})); $0</string>
+	<key>name</key>
+	<string>Compass - Gradient (grad)</string>
+	<key>tabTrigger</key>
+	<string>grad</string>
+	<key>uuid</key>
+	<string>F7B45FC1-FAAF-4294-9511-27CB0DAEFFB7</string>
+</dict>
+</plist>

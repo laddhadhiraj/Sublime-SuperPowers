@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mixpanel.track("${1:Event}");
+</string>
+	<key>name</key>
+	<string>MixPanel - Track (track)</string>
+	<key>tabTrigger</key>
+	<string>track</string>
+	<key>uuid</key>
+	<string>3A397F69-2C86-46B2-A51F-D17A86AE117A</string>
+</dict>
+</plist>

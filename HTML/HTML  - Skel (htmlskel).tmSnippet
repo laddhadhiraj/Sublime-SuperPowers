@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+	
+	&lt;title&gt; ${1:New}&lt;/title&gt;
+	
+	&lt;meta charset="utf-8" /&gt;
+	&lt;link href="css/style.css" rel="stylesheet" type="text/css" media="screen"/&gt;
+	&lt;link href="css/print.css" rel="stylesheet" type="text/css" media="print"/&gt;
+
+
+	&lt;!--[if IE]&gt;
+		&lt;script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;
+	&lt;!--[if lte IE 7]&gt;
+		&lt;script type="text/javascript" charset="utf-8"&gt;var IE7_PNG_SUFFIX = ".png";&lt;/script&gt;
+		&lt;script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"&gt;&lt;/script&gt;&lt;/script&gt;&lt;![endif]--&gt;
+	&lt;!--[if lt IE 7]&gt;
+		&lt;style type="text/css" media="Screen"&gt;@import url("css/ie.css");&lt;/style&gt;&lt;![endif]--&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div id="index" class="home"&gt;
+		
+		$0
+		
+	&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</string>
+	<key>name</key>
+	<string>HTML - Skel (htmlskel)</string>
+	<key>tabTrigger</key>
+	<string>htmlskel</string>
+	<key>uuid</key>
+	<string>D6713E57-E20D-4710-93DE-D3E52DB26350</string>
+</dict>
+</plist>

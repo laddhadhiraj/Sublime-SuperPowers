@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ajax(${1:{}}, 
+function(response) {
+	// SUCCESS
+	$0
+}, function(response) {
+	// FAIL
+}, this);
+</string>
+	<key>name</key>
+	<string>JS  - Backbone ajax (ajax)</string>
+	<key>tabTrigger</key>
+	<string>ajax</string>
+	<key>uuid</key>
+	<string>F3F907C6-0368-46CE-9A3F-8D8B8FB79847</string>
+</dict>
+</plist>

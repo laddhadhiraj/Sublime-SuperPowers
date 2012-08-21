@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>window.setTimeout(function() {  
+	if (logsOn) console.log("Timeout for "+${1:1000}+"ms Complete");
+	$0
+}, $1);</string>
+	<key>name</key>
+	<string>JS  - setTimeout (wait)</string>
+	<key>tabTrigger</key>
+	<string>wait</string>
+	<key>uuid</key>
+	<string>047133AA-D5C6-419A-A26F-DE5045C73A54</string>
+</dict>
+</plist>

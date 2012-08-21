@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@include replace-text-with-dimensions("${1:icon/${2:name}}.${3:png}");$0</string>
+	<key>name</key>
+	<string>Compass - Replace Text (replace)</string>
+	<key>tabTrigger</key>
+	<string>replace</string>
+	<key>uuid</key>
+	<string>21FB75F8-F815-4B73-B0CF-D7511E64551B</string>
+</dict>
+</plist>
