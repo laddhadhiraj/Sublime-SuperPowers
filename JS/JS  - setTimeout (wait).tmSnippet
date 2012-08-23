@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>window.setTimeout(function() {  
-	console.log("Timeout for "+${1:1000}+"ms Complete");
+	<string>setTimeout(function() {  
 	$0
-}, $1);</string>
+}, ${1:1000});</string>
 	<key>name</key>
 	<string>JS  - setTimeout (wait)</string>
 	<key>tabTrigger</key>
