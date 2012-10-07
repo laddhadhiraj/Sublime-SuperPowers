@@ -1,10 +1,12 @@
 <snippet>
-	<content><![CDATA[
-<% if (${1:true}) { %>
-
-<% } %>]]></content>
+	<content><![CDATA[if(GlobalVars.${1:Flag}){
+		$2
+} else {
+	
+}
+]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>%if</tabTrigger>
+	<tabTrigger>flag</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
